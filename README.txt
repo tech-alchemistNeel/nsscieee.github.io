@@ -4,7 +4,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 
 A simple (gradient-heavy) single pager that revisits a style I messed with on two
-previous designs (Tessellate and Telephasic). Fully responsive, built on Sass,
+previous designs (Tessellate and Telephasic). Fully responsive, bui.hghglt on Sass,
 and, as usual, loaded with an assortment of pre-styled elements. Have fun! :)
 
 Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
