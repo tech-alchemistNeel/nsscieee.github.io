@@ -48,7 +48,7 @@
 	}
 </style>
 
-<body>
+<body onscroll="myFunction()">
 
 
 
@@ -57,9 +57,14 @@
 			<div class="nav-wrapper">
 				<div class="row">
 					<div class="col s12">
-						<a href="index.html" class="brand-logo"><img src="images/logowhite.png" alt="" width="200" style="margin:20px;"></a>
+						
+						<a href="index.html" class="brand-logo" id="logoimgblue">
+								<img src="images/logonew.png" alt="" width="200" style="margin:20px;">
+							</a>
+						
 						<ul class="right hide-on-med-and-down">
-							<li><a href="https://www.townscript.com/e/ieee-nagpur-subsection-congress-230323" class="waves-effect waves-light btn" style="background:#FF6642">Buy Ticket</a>
+							<li><a href="https://www.townscript.com/e/ieee-nagpur-subsection-congress-230323" class="waves-effect waves-light btn"
+								 style="background:#FF6642">Buy Ticket</a>
 							</li>
 						</ul>
 					</div>
@@ -70,17 +75,17 @@
 	<section>
 		<div id="index-banner" class="parallax-container" style="height:100vh">
 			<div class="section">
-				
-				<div class="row container center hide-on-small-only" style="margin-top:20%">
-					<img src="images/logowhite.png" alt="" width="400">
+
+				<div class="row container center hide-on-small-only" style="margin-top:20%" id="brandlogo">
+					<img src="images/logowhite.png" alt="" width="400" id="logoimg">
 					<h1 class="white-text center lato" data-aos="zoom-in" style="font-size:3.8em;font-weight:100;text-transform: uppercase;padding:10px;line-height: 50px;word-spacing: 10px">
 						nagpur subsection congress
 					</h1>
 
-					<h5 class="white-text center"> 
-							<i class="material-icons small" style="color:#EF643F">
-									location_on
-								</i> G.H.Raisoni College of Engineering
+					<h5 class="white-text center">
+						<i class="material-icons small" style="color:#EF643F">
+							location_on
+						</i> G.H.Raisoni College of Engineering
 					</h5>
 
 				</div>
@@ -88,22 +93,23 @@
 
 
 				<div class="row container center hide-on-med-and-up" style="margin-top:50%">
-						<img src="images/logowhite.png" alt="" width="400" class="hide-on-small-only">
-						<h1 class="white-text center lato" data-aos="zoom-in" style="font-size:3.8em;font-weight:100;text-transform: uppercase;padding:10px;line-height: 50px;word-spacing: 10px">
-							nagpur subsection congress
-						</h1>
-	
-						<h5 class="white-text center"> 
-								<i class="material-icons small" style="color:#EF643F">
-										location_on
-									</i> G.H.Raisoni College of Engineering
-						</h5>
-						<div class="hide-on-med-and-up">
-							<br>
-								<a href="https://www.townscript.com/e/ieee-nagpur-subsection-congress-230323" class="waves-effect waves-light btn" style="background:#FF6642">Buy Ticket</a>
-						</div>
-	
+					<img src="images/logowhite.png" alt="" width="400" class="hide-on-small-only">
+					<h1 class="white-text center lato" data-aos="zoom-in" style="font-size:3.8em;font-weight:100;text-transform: uppercase;padding:10px;line-height: 50px;word-spacing: 10px">
+						nagpur subsection congress
+					</h1>
+
+					<h5 class="white-text center">
+						<i class="material-icons small" style="color:#EF643F">
+							location_on
+						</i> G.H.Raisoni College of Engineering
+					</h5>
+					<div class="hide-on-med-and-up">
+						<br>
+						<a href="https://www.townscript.com/e/ieee-nagpur-subsection-congress-230323" class="waves-effect waves-light btn"
+						 style="background:#FF6642">Buy Ticket</a>
 					</div>
+
+				</div>
 
 
 
@@ -114,7 +120,10 @@
 
 	</section>
 
-	<section style="background:#F0F2F6;">
+
+
+
+	<section style="background:#F0F2F6;" id="two">
 		<div class="row" style="margin:0px">
 			<div class="col s12 m3 center" style="padding:20px;margin-top: 30px;margin-bottom:30px;">
 				<i class="material-icons medium" style="color:#EF643F">
@@ -128,14 +137,14 @@
 					location_on
 				</i>
 				<br>
-				<h5 class="lato">Nagpur, INDIA</h5>
+				<h5 class="lato">Nagpur, Maharashtra</h5>
 			</div>
 			<div class="col s12 m3 center" style="padding:20px;margin-top:30px;margin-bottom:30px;">
 				<i class="material-icons medium" style="color:#EF643F">
 					crop_5_4
 				</i>
 				<br>
-				<h5 class="lato">20+ Topics</h5>
+				<h5 class="lato">20+ Domains</h5>
 			</div>
 			<div class="col s12 m3 center" style="padding:20px;margin-top:30px;margin-bottom:30px;">
 				<i class="material-icons medium" style="color:#EF643F">
@@ -229,7 +238,7 @@
 				</div>
 			</div>
 	</section>
-<!-- <br><br><br>
+	<!-- <br><br><br>
 	<div class="center">
 			<h1 class="black-text center lato" data-aos="zoom-in" style="font-size:3.8em;font-weight:100;text-transform: uppercase;padding:10px;line-height: 50px;word-spacing: 10px">
 			REgisterations are now open</h1>
@@ -240,7 +249,7 @@
 		<div id="index-banner" class="parallax-container" style="height:100%">
 			<div class="section">
 				<div class="row center">
-					<h1 class="white-text center lato" data-aos="zoom-in" style="font-size:3.8em;font-weight:100;text-transform: uppercase;padding:10px;line-height: 50px;word-spacing: 10px">
+					<h1 class="white-text center lato" data-aos="zoom-in" style="font-size:3.2em;font-weight:100;text-transform: uppercase;padding:10px;line-height: 50px;word-spacing: 10px">
 						REgisterations are now open</h1>
 					<br><br>
 					<div class="row">
@@ -249,9 +258,10 @@
 						</div>
 						<div class="col s12 m4">
 							<div class="center">
-								<i class="material-icons" style="color:white;font-size: 60px">
+								<img src="images/wallet.png" alt="">
+								<!-- <i class="material-icons" style="color:white;font-size: 60px">
 									money
-								</i>
+								</i> -->
 								<br><br>
 								<div style="background:#FF6642">
 									<h5 class="center rubik white-text" style="text-transform: uppercase">
@@ -263,14 +273,16 @@
 									₹ 1000
 								</h5>
 								<br>
-								<a href="https://www.townscript.com/e/ieee-nagpur-subsection-congress-230323" class="waves-effect waves-light btn" style="background:#FF6642">Buy Ticket</a>
+								<a href="https://www.townscript.com/e/ieee-nagpur-subsection-congress-230323" class="waves-effect waves-light btn"
+								 style="background:#FF6642">Buy Ticket</a>
 							</div>
+						</div>
+						<div class="col s12 m1">
+
 						</div>
 						<div class="col s12 m4">
 							<div class="center">
-								<i class="material-icons" style="color:white;font-size: 60px">
-									money
-								</i>
+								<img src="images/wallet.png" alt="">
 								<br><br>
 								<div style="background:#FF6642">
 									<h5 class="center rubik white-text" style="text-transform: uppercase">
@@ -282,13 +294,12 @@
 									₹ 1200
 								</h5>
 								<br>
-								<a href="https://www.townscript.com/e/ieee-nagpur-subsection-congress-230323" class="waves-effect waves-light btn" style="background:#FF6642">Buy Ticket</a>
+								<a href="https://www.townscript.com/e/ieee-nagpur-subsection-congress-230323" class="waves-effect waves-light btn"
+								 style="background:#FF6642">Buy Ticket</a>
 							</div>
 
 						</div>
-						<div class="col s12 m2">
 
-						</div>
 					</div>
 
 				</div>
@@ -310,10 +321,10 @@
 			</div>
 			<div class="row" style="margin-top:40px">
 				<div class="container">
-					<div class="col s12 m6">
+					<div class="col s12 m6" style="padding:30px">
 						<img src="images/tcs.png" alt="" width="300">
 					</div>
-					<div class="col s12 m6">
+					<div class="col s12 m6" style="padding:30px">
 						<img src="images/town.png" alt="" width="300">
 					</div>
 					<div class="col s12 center">
@@ -340,7 +351,7 @@
 						 fill="#ffffff" />
 					</svg>
 
-					
+
 					<?xml version="1.0" encoding="iso-8859-1"?>
 					<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px"
@@ -352,18 +363,18 @@
 
 
 					<i class="material-icons" style="font-size: 30px;color:white">
-							mail
-							</i>
+						mail
+					</i>
 
 				</div>
 			</div>
 		</div>
 
 		<div class="footer-copyright">
-				<div class="container white-text center">
-				© 2019 IEEE NSSC				
-				</div>
-			  </div>
+			<div class="container white-text center">
+				© 2019 IEEE NSSC
+			</div>
+		</div>
 	</footer>
 
 
@@ -374,6 +385,8 @@
 		M.AutoInit();
 		AOS.init();
 	</script>
+
+
 </body>
 
 </html>
