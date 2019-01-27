@@ -10,10 +10,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 	<link rel="stylesheet" href="css/aos.css">
 	<script src="js/aos.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	<!-- <script src="https://www.townscript.com/organizer-popup-widget/townscript-organizer-widget.nocache.js" type="text/javascript"></script> -->
-	<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript>
 	<title>NSSC'19 | Welcome</title>
 	<link rel="icon" href="images/bulb.png" type="image/gif" sizes="16x16">
 </head>
@@ -161,34 +160,48 @@
 
 
 	<section style="background:#F0F2F6;" id="two">
-		<div class="row" style="margin:0px">
-			<div class="col s12 m3 center" style="padding:20px;margin-top: 30px;margin-bottom:30px;">
+		<div class="row">
+			<div class="col s12 m3 center hoverable" style="padding:20px;margin-top: 30px;margin-bottom:30px;border-right:2px solid #FF6642">
 				<i class="material-icons medium" style="color:#EF643F">
 					watch_later
 				</i>
 				<br>
 				<h5 class="lato">8-10 Feb. 2019</h5>
+
+				<br>
+				<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=M3ZhNXVzNmMybG1hdHIyYmdpNTg1NmNjZ2kgc2FoaWxraW5kYXJsZTIxMkBt&tmsrc=sahilkindarle212%40gmail.com"
+				 class="waves-effect waves-light btn" style="background:#FF6642">Add to Google Calendar</a>
+
 			</div>
-			<div class="col s12 m3 center" style="padding:20px;margin-top:30px;margin-bottom:30px;">
+			<div class="col s12 m3 center hoverable" style="padding:20px;margin-top:30px;margin-bottom:30px;border-right:2px solid #FF6642">
 				<i class="material-icons medium" style="color:#EF643F">
 					location_on
 				</i>
 				<br>
 				<h5 class="lato">GHRCE, Nagpur</h5>
+				<br>
+				<a href="https://goo.gl/maps/DxGSm7GNV7P2" class="waves-effect waves-light btn" style="background:#FF6642">Get to
+					Location</a>
 			</div>
-			<div class="col s12 m3 center" style="padding:20px;margin-top:30px;margin-bottom:30px;">
+			<div class="col s12 m3 center hoverable" style="padding:20px;margin-top:30px;margin-bottom:30px;border-right:2px solid #FF6642">
 				<i class="material-icons medium" style="color:#EF643F">
-					crop_5_4
+					record_voice_over
 				</i>
 				<br>
-				<h5 class="lato">20+ Domains</h5>
+				<h5 class="lato">Best Speakers</h5>
+				<br>
+				<a id="directspeaker" class="waves-effect waves-light btn" style="background:#FF6642">View
+					Speakers</a>
 			</div>
-			<div class="col s12 m3 center" style="padding:20px;margin-top:30px;margin-bottom:30px;">
+			<div class="col s12 m3 center hoverable" style="padding:20px;margin-top:30px;margin-bottom:30px;">
 				<i class="material-icons medium" style="color:#EF643F">
 					burst_mode
 				</i>
 				<br>
 				<h5 class="lato">IEEE SB Presentation</h5>
+				<br>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfN5-vOGTtSTsOIKhtCMeHBqJeuTOjOJy-LSmsMLce65Sr35Q/viewform?usp=sf_link" class="waves-effect waves-light btn"
+				 style="background:#FF6642">Submit Presentation</a>
 			</div>
 		</div>
 	</section>
@@ -348,7 +361,7 @@
 				 style="opacity: 1;filter: brightness(40%)"></div>
 		</div>
 	</section>
-	<section style="background: #F0F2F6">
+	<section class="speakers" style="background: #F0F2F6">
 		<div class="container center">
 			<h3 style="text-transform: uppercase;font-weight:bold;word-spacing: 7px;letter-spacing: 5px;margin-top: 0px;">
 				<br> Speakers
@@ -394,28 +407,56 @@
 
 				</div>
 
-				<div class="col s12 m12 center">
-					<img src="images/sahil.jpg" alt="" class="circle responsive-img" style="border-left:4px solid #FF6642; border-bottom: 4px solid #FF6642;margin:20px;">
+
+			</div>
+
+			
+			<div class="col s12 m4 center">
+				<img src="images/sahil.jpg" alt="" class="circle responsive-img" style="border-left:4px solid #FF6642; border-bottom: 4px solid #FF6642;margin:20px;">
+				<h3 class="center" style="margin-top:0px;">
+					<br> Mr. Sahil Sameer
+				</h3>
+
+				<p class="rubik" style="text-align: justify">
+					<br>
+					Sahil Sameer, who hails from Kerala is a final year Electronics and Communication Engineering student at Model
+					Engineering College, Kochi. <br>
+					Having discovered the true essence and joy of Volunteering, he has served as one of the vibrant volunteers of the
+					IEEE Kerala Section for the past 3years. And he has nurtured this enthusiasm right from his school days where he
+					served as the president of school parliament, alongside being an active volunteer of OISCA South India chapter.
+					<br>
+					The year 2018 has been a phenomenal one for him, where he served as the student representative of IEEE Kochi
+					subsection 2018 alongside reigning the role of Secretary IEEE MEC SB. Having introduced various programs that
+					abridge the gap between students and industries, motivating them to STEM Education, he has also played a vital
+					role in harmonizing the student branches under the subsection.
+					<br> <br> <br></p>
+			</div>
+
+
+			<div class="col s12 m4 center">
+					<img src="images/shashank.jpeg" alt="" class="circle responsive-img" style="border-left:4px solid #FF6642; border-bottom: 4px solid #FF6642;margin:20px;" width="300">
 					<h3 class="center" style="margin-top:0px;">
-						<br> Mr. Sahil Sameer
+						<br> Mr.Shashank Arya
 					</h3>
 
 					<p class="rubik" style="text-align: justify">
 						<br>
-						Sahil Sameer, who hails from Kerala is a final year Electronics and Communication Engineering student at Model
-						Engineering College, Kochi. <br>
-						Having discovered the true essence and joy of Volunteering, he has served as one of the vibrant volunteers of the
-						IEEE Kerala Section for the past 3years. And he has nurtured this enthusiasm right from his school days where he
-						served as the president of school parliament, alongside being an active volunteer of OISCA South India chapter. <br>
-						The year 2018 has been a phenomenal one for him, where he served as the student representative of IEEE Kochi
-						subsection 2018 alongside reigning the role of Secretary IEEE MEC SB. Having introduced various programs that
-						abridge the gap between students and industries, motivating them to STEM Education, he has also played a vital
-						role in harmonizing the student branches under the subsection.
+						Mr. Shashank is currently working at Infocepts as Analyst for almost an year in the area of Developing Cross Platform BI Integration Web Application. He also had a chance to work at Tata Consultancy Services (TCS) as Full stack developer. His immense involvement and leadership skills made him the Area Director - H5 at Toastmasters International. Though he is a programmer, his passion made him to involve himself in public speaking .
 						<br> <br> <br></p>
 				</div>
 
 
-			</div>
+				<div class="col s12 m4 center">
+					<img src="images/hitesh.jpg" alt="" class="circle responsive-img" style="border-left:4px solid #FF6642; border-bottom: 4px solid #FF6642;margin:20px;" width="300">
+					<h3 class="center" style="margin-top:0px;">
+						<br> Mr. Hitesh Goyal
+					</h3>
+
+					<p class="rubik" style="text-align: justify">
+						<br>
+						Mr. Hitesh has been working as an Analyst for InfoCepts for the past two years. Prior to that he was associated as an IT specialist at AIESEC, which is the world's largest youth-run organization that provides young people with leadership development, internships and volunteer experiences across the globe.  With a passion towards Information Technology, Hitesh has contributed to humanitarian activities as an IT Specialist to the United Nations Development Program (UNDP).
+						<br> <br> <br></p>
+					</div>
 		</div>
 	</section>
 
@@ -558,6 +599,13 @@
 	<script>
 		M.AutoInit();
 		AOS.init();
+
+		$("#directspeaker").click(function () {
+			$('html,body').animate({
+					scrollTop: $(".speakers").offset().top
+				},
+				'slow');
+		});
 	</script>
 
 
